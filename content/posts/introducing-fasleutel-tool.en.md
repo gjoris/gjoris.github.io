@@ -3,7 +3,7 @@ title: "From Alto Sax to Web Dev: Introducing the Fasleutel Music Note Quiz"
 date: 2025-10-09T10:00:00+02:00
 draft: false
 description: "As a musician and cloud architect/software security professional, Geroen Joris has combined his passion for music with his development skills to create Fasleutel, an interactive web application."
-images = ["/images/post-hero.png"]
+images: ["/images/post-hero.png"]
 categories:
   - Web Development
   - Music
