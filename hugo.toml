@@ -31,6 +31,7 @@ enableEmoji = true
     enableReadingTime = true
     [params.page.related]
       enable = true
+      count = 5
 
   [params.footer]
     enable = true
