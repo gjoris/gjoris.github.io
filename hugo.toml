@@ -31,7 +31,6 @@ enableEmoji = true
     enableReadingTime = true
     [params.page.related]
       enable = true
-      count = 5
 
   [params.footer]
     enable = true
@@ -55,6 +54,8 @@ enableEmoji = true
   [params.app]
     [params.app.scroll]
       enable = true
+    [params.app.css]
+      custom = "/css/custom.css"
 
   [params.seo]
     image = "/images/IMG_0007.jpg" # Default SEO image
