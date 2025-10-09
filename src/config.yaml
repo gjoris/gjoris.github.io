@@ -18,9 +18,9 @@ metadata:
   openGraph:
     site_name: Geroen Joris | Tech Blog
     images:
-      - url: '~/assets/images/default.png' # Update with your image
-        width: 1200
-        height: 628
+      - url: '~/assets/images/IMG_0007.jpg' # Update with your image
+        width: 150
+        height: 150
     type: website
   twitter:
     handle: null # Your Twitter handle
@@ -38,25 +38,25 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: '/%slug%'
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'blog'
       robots:
         index: true
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: 'category'
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: 'tag'
       robots:
         index: false
 

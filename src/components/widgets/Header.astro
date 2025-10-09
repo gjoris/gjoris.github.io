@@ -9,6 +9,8 @@ import { getHomePermalink } from '~/utils/permalinks';
 import { trimSlash, getAsset } from '~/utils/permalinks';
 import type { CallToAction } from '~/types';
 
+import { headerData } from '~/navigation';
+
 interface Link {
   text?: string;
   href?: string;
@@ -34,13 +36,13 @@ export interface Props {
 
 const {
   id = 'header',
-  links = [],
-  actions = [],
+  links = headerData.links,
+  actions = headerData.actions,
   isSticky = false,
   isDark = false,
   isFullWidth = false,
-  showToggleTheme = false,
-  showRssFeed = false,
+  showToggleTheme = true,
+  showRssFeed = true,
   position = 'center',
 } = Astro.props;
 
