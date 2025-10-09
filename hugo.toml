@@ -47,7 +47,7 @@ enableEmoji = true
 
   [params.header]
     [params.header.title]
-      logo = "/logo.png"
+      logo = "/images/IMG_0007.jpg"
 
   [params.search]
     enable = true
