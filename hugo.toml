@@ -48,7 +48,6 @@ enableEmoji = true
   [params.header]
     [params.header.title]
       logo = "/logo.png"
-      name = "Geroen Joris Tech Blog"
 
   [params.search]
     enable = true
