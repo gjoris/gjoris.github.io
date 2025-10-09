@@ -36,4 +36,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           cname: gjoris.github.io # Replace with your custom domain if applicable
-          publish_branch: main # Explicitly publish to the main branch
+          publish_branch: main
+          force_orphan: true # Allow deploying from main to main # Explicitly publish to the main branch
