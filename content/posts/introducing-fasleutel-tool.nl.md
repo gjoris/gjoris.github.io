@@ -3,6 +3,7 @@ title: "Van Altsax tot Web Dev: Introductie van de Fasleutel Muzieknoten Quiz"
 date: 2025-10-09T10:00:00+02:00
 draft: false
 description: "Als muzikant en cloud architect/software security professional, heeft Geroen Joris zijn passie voor muziek gecombineerd met zijn ontwikkelvaardigheden om Fasleutel te creëren, een interactieve webapplicatie."
+images = ["/images/post-hero.png"]
 categories:
   - Web Development
   - Muziek
