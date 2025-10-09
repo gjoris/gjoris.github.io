@@ -24,6 +24,7 @@ export const footerData = {
     { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://linkedin.com/in/geroenjoris' },
   ],
   footNote: `
-    Made by Geroen Joris · All rights reserved.
+    Made by Geroen Joris · All rights reserved. <br/>
+    <span class="text-xs">Views are my own and do not reflect those of my employer.</span>
   `,
 };
