@@ -1,12 +1,6 @@
 baseURL = "/"
-# [en, zh-cn, fr, pl, ...] determines default content language
-defaultContentLanguage = "en"
+languageCode = "en-us" # Default language
 title = "Geroen Joris Tech Blog"
-
-enableRobotsTXT = true
-enableGitInfo = true
-enableEmoji = true
-
 theme = "DoIt"
 
 [params]
@@ -17,38 +11,23 @@ theme = "DoIt"
     name = "Geroen Joris"
     link = "https://github.com/gjoris"
 
-  # DoIt specific parameters for homepage posts
   [params.home]
     [params.home.posts]
       enable = true
-      paginate = 10 # Number of posts to display on homepage
+      paginate = 10
+      sections = ["posts"]
 
-  # Social share links in post page
-  [params.page]
-    hiddenFromHomePage = false
-    hiddenFromSearch = false
-    hiddenFromRss = false
-    dateFormat = "2006-01-02"
-    rssFullText = true
-    [params.page.share]
-      enable = true
-      Facebook = true
-      Twitter = true
-      Linkedin = true # Added LinkedIn
-      Telegram = true
-      Whatsapp = true # Added Whatsapp
-      Mastodon = true # Added Mastodon
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
 
-  # Footer config
-  [params.footer]
-    enable = true
-    copyright = true
-    author = true
-    since = 2025 # Set to current year
-    hugo = true
-    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-# Multi-language configuration
 [languages]
   [languages.en]
     languageName = "English"
@@ -84,14 +63,3 @@ theme = "DoIt"
         name = "Contact"
         url = "/nl/contact/"
         weight = 30
-
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    lineNumbersInTable = true
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
