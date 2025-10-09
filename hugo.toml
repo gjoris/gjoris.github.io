@@ -63,3 +63,10 @@ theme = "DoIt"
         name = "Contact"
         url = "/nl/contact/"
         weight = 30
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
