@@ -24,12 +24,13 @@ enableEmoji = true
   [params.page]
     hiddenFromHomePage = false
     hiddenFromSearch = false
-    hiddenFromRss = false
     dateFormat = "2006-01-02"
     rssFullText = true
     enableLastMod = true
     enableWordCount = true
     enableReadingTime = true
+    [params.page.related]
+      enable = true
 
   [params.footer]
     enable = true
@@ -42,6 +43,22 @@ enableEmoji = true
   [params.social]
     GitHub = "gjoris"
     Linkedin = "geroenjoris"
+
+  [params.header]
+    [params.header.title]
+      logo = "/logo.png"
+      name = "Geroen Joris Tech Blog"
+
+  [params.search]
+    enable = true
+
+  [params.app]
+    [params.app.scroll]
+      enable = true
+
+  [params.seo]
+    image = "/images/IMG_0007.jpg" # Default SEO image
+    thumbnailUrl = "/images/IMG_0007.jpg" # Default SEO thumbnail
 
 [markup]
   [markup.highlight]
@@ -96,3 +113,9 @@ enableEmoji = true
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   term = ["HTML", "RSS"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "Box"
+  bgColor = "#ffffff"
+  hint = "photo"
