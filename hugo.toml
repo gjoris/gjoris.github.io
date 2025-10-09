@@ -1,0 +1,97 @@
+baseURL = "/"
+# [en, zh-cn, fr, pl, ...] determines default content language
+defaultContentLanguage = "en"
+title = "Geroen Joris Tech Blog"
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+theme = "DoIt"
+
+[params]
+  description = "A personal, professional, and visually appealing tech blog focusing on AWS, DevSecOps, software architecture, and security."
+  images = ["/images/avatar.webp"] # Using example's avatar, we can change this later
+
+  [params.author]
+    name = "Geroen Joris"
+    link = "https://github.com/gjoris"
+
+  # DoIt specific parameters for homepage posts
+  [params.home]
+    [params.home.posts]
+      enable = true
+      paginate = 10 # Number of posts to display on homepage
+
+  # Social share links in post page
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    hiddenFromRss = false
+    dateFormat = "2006-01-02"
+    rssFullText = true
+    [params.page.share]
+      enable = true
+      Facebook = true
+      Twitter = true
+      Linkedin = true # Added LinkedIn
+      Telegram = true
+      Whatsapp = true # Added Whatsapp
+      Mastodon = true # Added Mastodon
+
+  # Footer config
+  [params.footer]
+    enable = true
+    copyright = true
+    author = true
+    since = 2025 # Set to current year
+    hugo = true
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+# Multi-language configuration
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Geroen Joris Tech Blog"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 30
+  [languages.nl]
+    languageName = "Nederlands"
+    weight = 2
+    title = "Geroen Joris Tech Blog"
+    [languages.nl.menu]
+      [[languages.nl.menu.main]]
+        name = "Home"
+        url = "/nl/"
+        weight = 10
+      [[languages.nl.menu.main]]
+        name = "Over Mij"
+        url = "/nl/about/"
+        weight = 20
+      [[languages.nl.menu.main]]
+        name = "Contact"
+        url = "/nl/contact/"
+        weight = 30
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
