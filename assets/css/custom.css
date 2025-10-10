@@ -1,7 +1,155 @@
-body {
-    font-family: 'Roboto', sans-serif;
+/* Custom branding and styling for Geroen Joris Tech Blog */
+
+:root {
+  --primary-color: #0066cc;
+  --secondary-color: #00a8e8;
+  --accent-color: #ff6b35;
+  --text-dark: #2c3e50;
+  --text-light: #7f8c8d;
+  --bg-light: #f8f9fa;
+  --code-bg: #282c34;
 }
 
+/* Enhanced typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+/* Improved headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.3em;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* Code blocks */
+code {
+  background-color: var(--bg-light);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--accent-color);
+}
+
+pre code {
+  background-color: var(--code-bg);
+  color: #abb2bf;
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 1em;
+  margin-left: 0;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+/* Post cards */
+.post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Tags */
+.tag {
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Reading time and metadata */
+.post-meta {
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid var(--bg-light);
+  margin-top: 3em;
+  padding-top: 2em;
+}
+
+/* Social icons */
+.social-links a {
+  margin: 0 0.5em;
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+/* Dark mode adjustments */
+[theme='dark'] {
+  --text-dark: #e4e6eb;
+  --text-light: #b0b3b8;
+  --bg-light: #242526;
+}
+
+/* Accessibility improvements */
+:focus {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
 }

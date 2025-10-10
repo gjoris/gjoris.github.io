@@ -9,11 +9,13 @@ enableEmoji = true
 
 [params]
   description = "A personal, professional, and visually appealing tech blog focusing on AWS, DevSecOps, software architecture, and security."
-  images = ["/images/IMG_0007.jpg"] # Using example's avatar, we can change this later
+  images = ["/images/IMG_0007.jpg"]
+  keywords = ["AWS", "DevSecOps", "Cloud Architecture", "Security", "Software Development", "Geroen Joris"]
 
   [params.author]
     name = "Geroen Joris"
     link = "https://github.com/gjoris"
+    email = "contact@geroenjoris.com"  # Update with your actual email
 
   [params.home]
     [params.home.posts]
