@@ -3,6 +3,10 @@ dist/
 .output/
 public/
 
+# Hugo
+.hugo_build.lock
+resources/_gen/
+
 # dependencies
 node_modules/
 
