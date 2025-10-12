@@ -75,11 +75,6 @@ enableEmoji = true
       enable = true
     [params.app.css]
       custom = "/css/custom.css"
-  
-  [params.analytics]
-    enable = true
-    [params.analytics.goatcounter]
-      code = "gjoris"
 
   [params.seo]
     image = "/images/IMG_0007.jpg" # Default SEO image
