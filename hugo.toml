@@ -59,7 +59,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "Geroen Joris"
+      name = "Geroen's Corner of the Universe"
       pre = ""
       post = ""
       typeit = false
