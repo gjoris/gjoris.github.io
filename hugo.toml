@@ -75,6 +75,11 @@ enableEmoji = true
       enable = true
     [params.app.css]
       custom = "/css/custom.css"
+  
+  [params.analytics]
+    enable = true
+    [params.analytics.goatcounter]
+      code = "gjoris"
 
   [params.seo]
     image = "/images/IMG_0007.jpg" # Default SEO image
@@ -86,6 +91,10 @@ enableEmoji = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
+    style = "monokai"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [taxonomies]
   category = "categories"
