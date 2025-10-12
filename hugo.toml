@@ -38,6 +38,12 @@ enableEmoji = true
     enableLastMod = true
     enableWordCount = true
     enableReadingTime = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Linkedin = true
+      Reddit = true
+      HackerNews = true
     [params.page.related]
       enable = true
       count = 5
@@ -54,6 +60,7 @@ enableEmoji = true
   [params.social]
     GitHub = "gjoris"
     Linkedin = "geroenjoris"
+    RSS = true
 
   [params.header]
     desktopMode = "fixed"
