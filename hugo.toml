@@ -38,6 +38,21 @@ enableEmoji = true
     enableLastMod = true
     enableWordCount = true
     enableReadingTime = true
+    [params.page.comment]
+      enable = true
+      [params.page.comment.giscus]
+        enable = true
+        repo = "gjoris/gjoris.github.io"
+        repoId = ""
+        category = "General"
+        categoryId = ""
+        mapping = "pathname"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        theme = "preferred_color_scheme"
+        lang = "en"
+        lazyLoading = true
     [params.page.share]
       enable = true
       Twitter = true

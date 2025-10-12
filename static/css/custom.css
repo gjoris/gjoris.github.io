@@ -603,3 +603,15 @@ html {
 .content > *:nth-child(1) { animation-delay: 0.1s; }
 .content > *:nth-child(2) { animation-delay: 0.2s; }
 .content > *:nth-child(3) { animation-delay: 0.3s; }
+
+/* Giscus Comments */
+.giscus {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.giscus-frame {
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
