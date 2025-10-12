@@ -73,6 +73,7 @@ enableEmoji = true
   [params.app]
     title = "Geroen's Corner of the Universe"
     noFavicon = false
+    svgFavicon = "/favicon.svg"
     [params.app.scroll]
       enable = true
     [params.app.css]

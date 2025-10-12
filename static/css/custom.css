@@ -17,15 +17,17 @@
 }
 
 [theme=dark] {
-  --primary-color: #818cf8;
-  --primary-dark: #6366f1;
-  --secondary-color: #a78bfa;
+  --primary-color: #a78bfa;
+  --primary-dark: #8b5cf6;
+  --secondary-color: #c084fc;
   --accent-color: #60a5fa;
   --text-color: #e2e8f0;
   --text-light: #cbd5e0;
-  --bg-light: #1a202c;
-  --bg-white: #2d3748;
-  --border-color: #4a5568;
+  --bg-light: #1e293b;
+  --bg-white: #0f172a;
+  --border-color: #334155;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* Typography */
@@ -140,6 +142,20 @@ code, pre {
   width: 14px;
   height: 14px;
   opacity: 0.7;
+}
+
+.post-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Reading time badge */
+.post-meta .post-reading-time {
+  background: var(--bg-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
 }
 
 /* Post Content Preview */
