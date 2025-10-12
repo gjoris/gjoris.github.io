@@ -1,6 +1,6 @@
 baseURL = "https://gjoris.github.io/"
 languageCode = "en-us" # Default language
-title = "Geroen Joris Tech Blog"
+title = "Geroen's Corner of the Universe"
 theme = "DoIt"
 
 enableRobotsTXT = true
@@ -71,7 +71,7 @@ enableEmoji = true
     maxResultLength = 10
 
   [params.app]
-    title = "Geroen Joris Tech Blog"
+    title = "Geroen's Corner of the Universe"
     noFavicon = false
     [params.app.scroll]
       enable = true
@@ -101,7 +101,7 @@ enableEmoji = true
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Geroen Joris Tech Blog"
+    title = "Geroen's Corner of the Universe"
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "Home"
@@ -118,7 +118,7 @@ enableEmoji = true
   [languages.nl]
     languageName = "Nederlands"
     weight = 2
-    title = "Geroen Joris Tech Blog"
+    title = "Geroen's Corner of the Universe"
     [languages.nl.menu]
       [[languages.nl.menu.main]]
         name = "Home"
