@@ -14,7 +14,9 @@ tags:
   - UI/UX
 ---
 
-I'm excited to announce that the [Fasleutel Music Notes Quiz](https://gjoris.github.io/fasleutel/) has received a complete visual upgrade! The application that helps musicians practice reading treble and bass clefs now features a modern, attractive design that elevates the user experience to a new level.
+The [Fasleutel Music Notes Quiz](https://gjoris.github.io/fasleutel/) has received a complete visual upgrade! The new design brings modern gradients, smooth animations, and improved usability to the application that helps musicians practice reading treble and bass clefs.
+
+<!--more-->
 
 ## What's New?
 

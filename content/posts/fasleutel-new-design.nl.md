@@ -14,7 +14,9 @@ tags:
   - UI/UX
 ---
 
-Ik ben blij om aan te kondigen dat de [Fasleutel Muzieknoten Quiz](https://gjoris.github.io/fasleutel/) een complete visuele upgrade heeft gekregen! De applicatie die muzikanten helpt bij het oefenen van de sol- en fa-sleutel heeft nu een modern, aantrekkelijk design dat de gebruikservaring naar een hoger niveau tilt.
+De [Fasleutel Muzieknoten Quiz](https://gjoris.github.io/fasleutel/) heeft een complete visuele upgrade gekregen! Het nieuwe design brengt moderne gradients, smooth animaties en verbeterde gebruiksvriendelijkheid naar de applicatie die muzikanten helpt bij het oefenen van de sol- en fa-sleutel.
+
+<!--more-->
 
 ## Wat is er nieuw?
 
