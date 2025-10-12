@@ -227,20 +227,26 @@ a:hover {
 
 /* Tags and Categories */
 .post-tag, .post-category {
-  background: var(--bg-light);
-  color: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
   border-radius: 6px;
-  padding: 0.25rem 0.75rem;
+  padding: 0.35rem 0.75rem;
   font-size: 0.875rem;
   font-weight: 600;
   transition: all 0.3s ease;
-  border: 1px solid var(--border-color);
+  border: none;
+  display: inline-block;
+  margin: 0.25rem;
 }
 
 .post-tag:hover, .post-category:hover {
-  background: var(--primary-color);
-  color: white;
   transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.post-tags a {
+  color: white !important;
+  text-decoration: none;
 }
 
 /* Code Blocks */
@@ -249,11 +255,13 @@ a:hover {
   overflow: hidden;
   box-shadow: var(--shadow);
   margin: 1.5rem 0;
+  position: relative;
 }
 
 pre {
   border-radius: 8px;
   padding: 1.5rem !important;
+  position: relative;
 }
 
 code {
@@ -261,6 +269,34 @@ code {
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   font-size: 0.9em;
+}
+
+/* Copy code button */
+.copy-code-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.copy-code-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.copy-code-button.copied {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  border-color: transparent;
 }
 
 /* Content */
@@ -277,10 +313,24 @@ code {
 
 .content blockquote {
   border-left: 4px solid var(--primary-color);
-  background: var(--bg-light);
-  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg, var(--bg-light) 0%, transparent 100%);
+  padding: 1.25rem 1.5rem;
   border-radius: 0 8px 8px 0;
   margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-light);
+  position: relative;
+}
+
+.content blockquote::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--primary-color);
+  opacity: 0.3;
+  position: absolute;
+  left: 0.5rem;
+  top: -0.5rem;
+  font-family: Georgia, serif;
 }
 
 /* Footer */
@@ -393,6 +443,18 @@ code {
 /* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Back to top button */
+#back-to-top-button {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+  box-shadow: var(--shadow-lg) !important;
+  transition: all 0.3s ease !important;
+}
+
+#back-to-top-button:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4) !important;
 }
 
 /* Selection */
