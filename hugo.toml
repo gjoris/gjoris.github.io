@@ -133,13 +133,21 @@ enableEmoji = true
         url = "/"
         weight = 10
       [[languages.en.menu.main]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Projects"
+        url = "/projects/"
+        weight = 30
+      [[languages.en.menu.main]]
         name = "About"
         url = "/about/"
-        weight = 20
+        weight = 40
       [[languages.en.menu.main]]
         name = "Contact"
         url = "/contact/"
-        weight = 30
+        weight = 50
   [languages.nl]
     languageName = "Nederlands"
     weight = 2
@@ -150,13 +158,21 @@ enableEmoji = true
         url = "/nl/"
         weight = 10
       [[languages.nl.menu.main]]
+        name = "Posts"
+        url = "/nl/posts/"
+        weight = 20
+      [[languages.nl.menu.main]]
+        name = "Projecten"
+        url = "/nl/projects/"
+        weight = 30
+      [[languages.nl.menu.main]]
         name = "Over Mij"
         url = "/nl/about/"
-        weight = 20
+        weight = 40
       [[languages.nl.menu.main]]
         name = "Contact"
         url = "/nl/contact/"
-        weight = 30
+        weight = 50
 
 [outputs]
   home = ["HTML", "RSS"]
