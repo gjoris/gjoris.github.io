@@ -58,9 +58,10 @@ enableEmoji = true
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      logo = "/images/IMG_0007.jpg"
+      logo = ""
       name = "Geroen Joris"
-      pre = "🎵"
+      pre = ""
+      post = ""
       typeit = false
 
   [params.search]
