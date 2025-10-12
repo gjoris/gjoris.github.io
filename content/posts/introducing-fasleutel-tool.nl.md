@@ -14,8 +14,9 @@ tags:
   - Bulma CSS
 ---
 
-Als muzikant – ik speel altsaxofoon – ben ik altijd gefascineerd geweest door de kruising tussen kunst en technologie. Hoewel mijn dagelijkse werk zich afspeelt in de wereld van cloud-architectuur en softwarebeveiliging, inspireert mijn passie voor muziek me vaak om projecten te bouwen die deze twee werelden samenbrengen.
+Als muzikant en cloud architect heb ik mijn passie voor muziek gecombineerd met ontwikkelvaardigheden om [Fasleutel](https://gjoris.github.io/fasleutel/) te creëren - een interactieve webapplicatie die muzikanten helpt bij het oefenen van de sol- en fa-sleutel. Het is meer dan een simpele tool; het is een complete quiz-ervaring met verschillende modi en meertalige ondersteuning.
 
+<!--more-->
 
 ## DE UITDAGING VAN MUZIEKTHEORIE
 

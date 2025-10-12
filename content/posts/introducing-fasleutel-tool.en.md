@@ -14,7 +14,9 @@ tags:
   - Bulma CSS
 ---
 
-As a musician and cloud architect/software security professional, Geroen Joris has combined his passion for music with his development skills to create Fasleutel, an interactive web application.
+As a musician and cloud architect, I've combined my passion for music with development skills to create [Fasleutel](https://gjoris.github.io/fasleutel/) - an interactive web application that helps musicians practice reading treble and bass clefs. It's more than a simple tool; it's a complete quiz experience with multiple modes and multilingual support.
+
+<!--more-->
 
 **The Challenge:** Music theory, especially reading notes in both treble and bass clefs, requires constant practice.
 
