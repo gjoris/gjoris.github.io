@@ -49,6 +49,7 @@ enableEmoji = true
     since = 2025 # Set to current year
     hugo = true
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    custom = '<br><small>All opinions expressed are my own and do not represent those of any employer.</small>'
 
   [params.social]
     GitHub = "gjoris"
