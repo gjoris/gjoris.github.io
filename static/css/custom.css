@@ -132,6 +132,20 @@ a:hover {
   color: var(--primary-dark);
 }
 
+/* Reset button styling for taxonomy/category links */
+.single-summary .button,
+.post-meta .button,
+.taxonomy .button {
+  background: none !important;
+  color: var(--primary-color) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
 /* Tags and Categories */
 .post-tag, .post-category {
   background: var(--bg-light);
