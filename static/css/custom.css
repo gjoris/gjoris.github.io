@@ -123,18 +123,21 @@ a:hover {
   color: var(--primary-dark);
 }
 
-.button, button {
+/* Only style specific buttons, not all buttons */
+.post-button .button,
+.pagination .button {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1rem;
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: var(--shadow);
 }
 
-.button:hover, button:hover {
+.post-button .button:hover,
+.pagination .button:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
