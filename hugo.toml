@@ -43,9 +43,9 @@ enableEmoji = true
       [params.page.comment.giscus]
         enable = true
         repo = "gjoris/gjoris.github.io"
-        repoId = ""
+        repoId = "R_kgDOOJAsFA"
         category = "General"
-        categoryId = ""
+        categoryId = "DIC_kwDOOJAsFM4CwkEy"
         mapping = "pathname"
         reactionsEnabled = "1"
         emitMetadata = "0"
