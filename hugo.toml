@@ -48,13 +48,22 @@ enableEmoji = true
     Linkedin = "geroenjoris"
 
   [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
     [params.header.title]
       logo = "/images/IMG_0007.jpg"
+      name = "Geroen Joris"
+      pre = "🎵"
+      typeit = false
 
   [params.search]
     enable = true
+    type = "lunr"
+    maxResultLength = 10
 
   [params.app]
+    title = "Geroen Joris Tech Blog"
+    noFavicon = false
     [params.app.scroll]
       enable = true
     [params.app.css]
