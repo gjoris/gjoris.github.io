@@ -18,10 +18,17 @@ enableEmoji = true
     email = "contact@geroenjoris.com"  # Update with your actual email
 
   [params.home]
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/IMG_0007.jpg"
+      title = "Geroen Joris"
+      subtitle = "Cloud Architect • Security Professional • Musician"
+      typeit = true
+      social = true
     [params.home.posts]
       enable = true
       paginate = 10
-      sections = ["posts"]
 
   [params.page]
     hiddenFromHomePage = false
