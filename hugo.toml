@@ -107,6 +107,9 @@ enableEmoji = true
     image = "/images/IMG_0007.jpg" # Default SEO image
     thumbnailUrl = "/images/IMG_0007.jpg" # Default SEO thumbnail
 
+  [params.page.code]
+    maxShownLines = 200
+
 [markup]
   [markup.highlight]
     codeFences = true
