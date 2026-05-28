@@ -20,7 +20,9 @@
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
 
-  --measure: 75ch;             /* comfortable line length for body text */
+  /* No --measure: paragraphs fill the .page container (900px). The
+     container itself is the line-length cap, which keeps text, code, and
+     tables visually aligned. */
 }
 
 [theme=dark] {
@@ -70,12 +72,8 @@ h1 { font-size: 2.25rem; font-weight: 700; }
 h2 { font-size: 1.625rem; }
 h3 { font-size: 1.25rem; }
 
-p, ul, ol, blockquote {
-  max-width: var(--measure);
-}
-
 /* Body copy in posts uses serif for sustained reading; keep UI / chrome
-   in sans. */
+   in sans. Width is governed by the .page container, not per-element. */
 .single .content p,
 .single .content li,
 .single .content blockquote {
