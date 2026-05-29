@@ -23,7 +23,7 @@ MCP is an open protocol that AI assistants use to talk to external tools. It sta
 
 ## The website blocks scrapers, but the API doesn't
 
-Both marktplaats.nl and 2dehands.be sit behind Cloudflare, and their HTML pages are not friendly to bots. The interesting discovery: their internal JSON API at `/lrp/api/search` is wide open. No auth, no rate limiting, identical response shape on both sites. Both are owned by Adevinta and share the same backend — so a single search call works for either by just swapping the hostname.
+Both marktplaats.nl and 2dehands.be sit behind Cloudflare, and their HTML pages are not friendly to bots. The interesting discovery: their internal JSON API at `/lrp/api/search` is reachable without an API key, returns identical response shapes on both sites, and accepts the full filter set the website uses. Both are owned by Adevinta and share the same backend — so a single search call works for either by just swapping the hostname. Whatever rate limiting Cloudflare applies, normal interactive use stays well below it.
 
 That meant I could skip the entire "headless browser with stealth plugins" rabbit hole and write a normal Python `requests` wrapper.
 
