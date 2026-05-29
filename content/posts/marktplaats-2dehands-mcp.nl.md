@@ -23,7 +23,7 @@ MCP is een open protocol dat AI-assistenten gebruiken om met externe tools te pr
 
 ## De website blokkeert scrapers, maar de API niet
 
-Beide sites zitten achter Cloudflare en hun HTML-pagina's zijn niet bot-vriendelijk. Belangrijke ontdekking: hun interne JSON API op `/lrp/api/search` staat wagenwijd open. Geen auth, geen rate limiting, identieke response op beide sites. Beide zijn van Adevinta en delen dezelfde backend — één search-call werkt voor allebei door alleen de hostname te wisselen.
+Beide sites zitten achter Cloudflare en hun HTML-pagina's zijn niet bot-vriendelijk. Belangrijke ontdekking: hun interne JSON API op `/lrp/api/search` is bereikbaar zonder API-sleutel, geeft identieke response shapes op beide sites, en accepteert de volledige filter-set die de website ook gebruikt. Beide zijn van Adevinta en delen dezelfde backend — één search-call werkt voor allebei door alleen de hostname te wisselen. Welke rate limiting Cloudflare ook toepast, normale interactieve calls blijven daar ruim onder.
 
 Dat betekende dat ik het hele "headless browser met stealth plugins"-konijnenhol kon overslaan en gewoon een Python `requests` wrapper kon schrijven.
 
